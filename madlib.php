@@ -47,6 +47,6 @@ $m = '';
 $m .= 'At <span class="highlight">' . ucwords(strtolower(getword($company1) . ' ' . getword($company2))) . '</span>';
 $m .= ' we ' . strtolower(getword($actions));
 $m .= ' that ' . strtolower(getword($opinion1, false)) . opinionjoin() . strtolower(getword($opinion2));
-$m .= ', so <span class="highlight">' . getword($product) . '</span>';
+$m .= '. That&rsquo;s why <span class="highlight">' . getword($product) . '</span>';
 $m .= ' offers ' . getword($feature1) . ' ' . getword($feature2);
 $m .= ' that ' . getword($benefit1) . ' ' . getword($benefit2) . ' ' . getword($benefit4);
