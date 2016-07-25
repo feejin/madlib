@@ -42,7 +42,7 @@ include 'madlib.php'
 		background: linear-gradient(to bottom,  #cedce7 0%,#596a72 100%); 
 		color: #004857;
 		text-align: center;
-		font-size: 62.5%;
+		font-size: 30%;
 	}
 
 	.advertising-message {
@@ -66,7 +66,7 @@ include 'madlib.php'
 	.alpha {
 		position: absolute; top: -1em; left: -6em; 
 		font: 300%/1.2 'Luckiest Guy', cursive;
-		padding: 4em 6em 3em;
+		padding: 4em 6em 2em;
 		transform: rotate(-45deg);
 		background: #000;
 		color: #fff;
@@ -112,23 +112,19 @@ include 'madlib.php'
 		color: #fff;
 	}
 
-	@media (max-width: 600px) {
-		body {
-			font-size: 30%;
-		}
-
-		.alpha {
-			padding-bottom: 2em;
-		}
-	}
-
 	@media (max-width: 900px) {
 		body {
 			font-size: 50%;
 		}
 
 		.alpha {
-			padding-bottom: 2em;
+			padding-bottom: 3em;
+		}
+	}
+
+	@media (max-width: 1100px) {
+		body {
+			font-size: 62.5%;
 		}
 	}
 	</style>
