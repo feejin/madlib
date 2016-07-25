@@ -91,6 +91,27 @@ include 'madlib.php'
 		color: #004143;
 	}
 
+	.button {
+		display: inline-block;
+		margin: 0 auto 2em;
+		font: 200%/1.0 tahoma, sans-serif;
+		padding: 0.75em 4em;
+		border-radius: 10px;
+		border-bottom: 2px solid #00132e;
+	}
+
+	.button:link,
+	.button:visited {
+		background: #00334e;
+		color: #fff;
+	}
+
+	.button:hover,
+	.button:active {
+		background: #000;
+		color: #fff;
+	}
+
 	@media (max-width: 600px) {
 		body {
 			font-size: 30%;
@@ -119,7 +140,7 @@ include 'madlib.php'
 	,i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-39887465-1', 'auto');
+	ga('create', 'UA-19324725-41', 'auto');
 	ga('send', 'pageview');
 	//]]>
 	</script>
@@ -129,6 +150,10 @@ include 'madlib.php'
 
 <div class="advertising-message">
 	<?php echo $m ?>
+</div>
+
+<div class="another">
+	<a href="/" class="button">Another?</a>
 </div>
 
 <div class="credits">
