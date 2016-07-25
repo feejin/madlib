@@ -112,7 +112,7 @@ include 'madlib.php'
 		color: #fff;
 	}
 
-	@media (max-width: 900px) {
+	@media (min-width: 900px) {
 		body {
 			font-size: 50%;
 		}
@@ -122,7 +122,13 @@ include 'madlib.php'
 		}
 	}
 
-	@media (max-width: 1100px) {
+	@media (min-width: 1100px) {
+		body {
+			font-size: 62.5%;
+		}
+	}
+
+	@media (min-width: 1100px) {
 		body {
 			font-size: 62.5%;
 		}
